@@ -6,32 +6,85 @@
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
-body, h1, h2, h3, p {font-family: "Raleway", sans-serif; color: #ffffff}
-body, html {height: 100%; background-image: url('https://storge.pic2.me/cm/3840x2160/653/54a6ebf739389.jpg');}
-.bgimg {
-/*   background-image: url('https://storge.pic2.me/cm/3840x2160/653/54a6ebf739389.jpg'); */
-  min-height: 100%;
-  background-position: center;
-  background-size: cover 100%;
-} 
+body {font-family: "Raleway", sans-serif; color: #000000; background-color: #E2E2E2}
+
+.ost {
+  padding: 10px 20px 20px 20px;
+}
+
+.menu {
+  width: 100%;
+  margin-bottom: 40px;
+  display: table;
+}
+.menu ul {
+  display: table-row;
+}
+.menu li {
+  display: table-cell;
+  background: #2196F3;
+  font-size: 20px;
+}
+.menu ul li:hover, .menu a:hover {
+  background: #666;
+}
+.menu li a {
+  display: block;
+  padding: 8px 15px;
+  color: #fff;
+  text-align: center;
+}
+
+.w3-container {
+  margin-bottom: 10px;
+}
+
+.w3-center {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.w3-btn {
+  margin: 20px 70px 20px 20px;
+}
+
 .mySlides {display:none;}
-  
+
+}
  
 </style>
 <body>
+  <div class="ost">
 
-<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-  <div class="w3-display-topleft w3-padding-large w3-xlarge">
-    BK
-  </div>
-  <div class="w3-display-middle">
-    <h1 class="w3-jumbo w3-animate-top">WayCread</h1>
-    <hr class="w3-border-grey" style="margin:auto;width:40%">
-    <p class="w3-large w3-center"><a href="https://waycread.github.io">waycread.github.io</a></p>
+    <div class="menu">
+      <ul>
+        <li><a href="#">Головна</a></li>
+        <li><a href="https://google.com">Google</a></li>
+        <li><a href="https://vcolnuft.volyn.ua/">Сайт коледжу</a></li>
+        <li><a href="https://news.google.com/topstories?hl=uk&gl=UA&ceid=UA:uk">Новини</a></li>
+      </ul>
+    </div>
+
+
+    <div class="w3-card-4" style="width:100%; text-align: center;">
+    <header class="w3-container w3-blue">
+      <h1>Головна сторінка сайту</h1>
+    </header>
+
+    <div class="w3-container">
+      <p>Ось ця сторінка сайту.</p>
+    </div>
+
+    <footer class="w3-container w3-blue">
+      <h5>Опис</h5>
+    </footer>
+        <div class="w3-container ">
+      <p>Якого немає.</p>
+    </div>
   </div>
 </div>
 
-  <h2 class="w3-center">Слайдшоу</h2>
+  <h2 class="w3-center">Галерея</h2>
 
 <div class="w3-content w3-display-container">
   <img class="mySlides" src="https://i.pinimg.com/originals/ac/a0/ca/aca0cadcfbda456fff93ea33419b60f8.jpg" style="width:100%">
@@ -45,31 +98,15 @@ body, html {height: 100%; background-image: url('https://storge.pic2.me/cm/3840x
   
 <div class="w3-container">
 
-<h2>Аккордеон</h2>
-<p>Опис:</p>
-  
-<button onclick="myFunction('Demo1')" class="w3-btn w3-block w3-black w3-left-align">Секція 1</button>
+<button onclick="myFunction('Demo1')" class="w3-btn w3-block w3-black w3-left-align">Спойлер</button>
 <div id="Demo1" class="w3-container w3-hide">
-  <h4>Текст1</h4>
-  <p>Текст...</p>
+  <h4>Тут щось має бути</h4>
 </div>
 
+</div>
 </div>
   
-  <div class="w3-card-4" style="width:50%;">
-    <header class="w3-container w3-blue">
-      <h1>Header</h1>
-    </header>
 
-    <div class="w3-container">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    </div>
-
-    <footer class="w3-container w3-blue">
-      <h5>Footer</h5>
-    </footer>
-  </div>
-</div>
 
 
 <script>
